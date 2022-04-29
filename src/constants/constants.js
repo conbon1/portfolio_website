@@ -19,10 +19,10 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2021, text: 'Q4 - Round table first assembles to discuss WWM', },
-  { year: 2022, text: 'Q1 - Art created and website/twitter developement begins', },
-  { year: 2022, text: 'Q2 - Genesis Wizard mint and official roadmap announcement', },
-  { year: 2022, text: 'Q3 - Genesis Warlock mint via $WWM token - LP Pool creation', },
-  { year: 2022, text: 'Q4 - P2E Game sneak peaks begin - launch announcement', },
-];
+//export const TimeLineData = [
+  //{ year: 2021, text: 'Q4 - Round table first assembles to discuss WWM', },
+  //{ year: 2022, text: 'Q1 - Art created and website/twitter developement begins', },
+  //{ year: 2022, text: 'Q2 - Genesis Wizard mint and official roadmap announcement', },
+  //{ year: 2022, text: 'Q3 - Genesis Warlock mint via $WWM token - LP Pool creation', },
+  //{ year: 2022, text: 'Q4 - P2E Game sneak peaks begin - launch announcement', },
+//];

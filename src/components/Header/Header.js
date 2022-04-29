@@ -17,12 +17,12 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Roadmap</NavLink>
+          <NavLink>Sneak Peaks</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Web3</NavLink>
+          <NavLink>Utilities</NavLink>
         </Link>
       </li>        
       <li>

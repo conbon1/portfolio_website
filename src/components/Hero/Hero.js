@@ -9,12 +9,16 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To Wizard Worlds
+          Welcome To The <br />
+          Wizard Worlds Metaverse
         </SectionTitle>
         <SectionText>
-        Genesis Wizard Mint Live!
+          Genesis Wizard mint is now live just<br />
+          click the link below to get yours!!
         </SectionText>
-        <Button onClick={props.handleClick}>Mint</Button>
+        <Button onClick={props.handleClick}>
+          <a href="https://launchmynft.io/collections/AETMcjSATqwGHFJvPdZFnBdJzKfbhHW4H3RAcLsan8ZH/FAEx0VC5nDerd4IAB1mU" target="_blank">MINT</a>
+        </Button>
       </LeftSection>
     </Section>
   </>
