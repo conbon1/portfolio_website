@@ -6,10 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Token Utilities</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Here is a small list of some of the future token utilities we have planned.
     </SectionText>
     <List>
       <ListItem>
@@ -17,10 +16,10 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Mint #2 and #3</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            The Genesis Warlocks and all future mints will be <br />
+            able to be fully minted with the tokens earned when staking.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +28,10 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Future Items</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            The Wizard World Metaverse will eventually have a pluthera of items <br />
+            to be purchased primarily via our token.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +40,10 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>LP</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            50% of all funds generated from all 3 Genesis mints will go directly <br />
+            into an LP pool setup on Raydium.
           </ListParagraph>
         </ListContainer>
       </ListItem>
