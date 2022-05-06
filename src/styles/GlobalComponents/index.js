@@ -4,9 +4,10 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
-  margin: 0 auto;
-  max-width: 1040px;
+  margin: auto;
+  width: max-content;
   box-sizing: content-box;
+  text-align: center;
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
@@ -26,10 +27,11 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  font-size: ${(props) => props.main ? '40px' : '24px'};
+  line-height: ${(props) => props.main ? '36px' : '24px'};
   width: max-content;
   max-width: 100%;
+  text-align: center;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,8 +39,8 @@ export const SectionTitle = styled.h2`
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: ${(props) => props.main ? '56px' : '48px'};
-    line-height: ${(props) => props.main ? '56px' : '48px'};
+    font-size: ${(props) => props.main ? '41px' : '34px'};
+    line-height: ${(props) => props.main ? '41px' : '34px'};
     margin-bottom: 12px;
     padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
@@ -50,12 +52,13 @@ export const SectionTitle = styled.h2`
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
-    max-width: 100%;
+    max-width: 7%;
   }
 `
 
 export const SectionText = styled.p`
   max-width: 800px;
+  text-align: center;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
@@ -78,7 +81,7 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 500;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
@@ -100,6 +103,7 @@ export const SectionDivider = styled.div`
 `
 export const SectionSubText = styled.p`
   max-width: 800px;
+  text-align: center;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
@@ -126,7 +130,8 @@ export const SecondaryBtn = styled.button`
   font-weight: 600;
   font-size: 18px;
   line-height: 16px;
-  width: fit-content;
+  width: relative;
+  text-align: center;
   margin-top: 32px;
   margin-bottom: 80px;
   cursor: pointer;
@@ -167,10 +172,10 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '75px' : '131px'};
+  height: ${({ alt }) => alt ? '26px' : '32px'};
   border-radius: 50px;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-size: ${({ alt }) => alt ? '10px' : '12px'};
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -212,7 +217,7 @@ export const ButtonFront = styled.button`
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-size: ${({ alt }) => alt ? '10px' : '12px'};
   font-weight: 600;
   align-items: center;
   justify-content: center;

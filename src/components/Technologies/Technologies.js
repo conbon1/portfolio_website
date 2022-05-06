@@ -6,10 +6,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Token Utilities</SectionTitle>
-    <SectionText>
-      Here is a small list of some of the future token utilities we have planned.
-    </SectionText>
+    <sectionText><br /></sectionText>
+    <center><SectionTitle>
+      Future Plans
+    </SectionTitle></center>
     <List>
       <ListItem>
         <picture>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Mint #2 and #3</ListTitle>
           <ListParagraph>
-            The Genesis Warlocks and all future mints will be <br />
+            The Wizard Den's and all future mints will be <br />
             able to be fully minted with the tokens earned when staking.
           </ListParagraph>
         </ListContainer>
@@ -28,10 +28,10 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Future Items</ListTitle>
+          <ListTitle>New items</ListTitle>
           <ListParagraph>
             The Wizard World Metaverse will eventually have a pluthera of items <br />
-            to be purchased primarily via our token.
+            to be purchased primarily via our token, all of which will be stakeable.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,6 +45,7 @@ const Technologies = () =>  (
             50% of all funds generated from all 3 Genesis mints will go directly <br />
             into an LP pool setup on Raydium.
           </ListParagraph>
+          <sectionText><br /><br /><br /></sectionText>
         </ListContainer>
       </ListItem>
     </List>

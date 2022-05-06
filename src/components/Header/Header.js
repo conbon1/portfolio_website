@@ -17,7 +17,7 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Sneak Peaks</NavLink>
+            <NavLink>Vision</NavLink>
         </Link>
       </li>
       <li>
@@ -27,9 +27,9 @@ const Header = () =>  (
       </li>        
       <li>
         <Link href="#about">
-          <NavLink>About the team</NavLink>
+          <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li>       
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com">
@@ -38,11 +38,11 @@ const Header = () =>  (
         <SocialIcons href="https://www.medium.com">
           <AiFillMediumCircle size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.twitter.com/Wizard_Worlds">
+        <SocialIcons href="https://twitter.com/Genesis_Wizards">
           <AiFillTwitterCircle size="3rem"/>
         </SocialIcons>
       </Div3>
-    </Container>
+  </Container>
 );
 
 export default Header;
