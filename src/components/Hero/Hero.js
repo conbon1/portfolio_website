@@ -13,7 +13,7 @@ const Hero = (props) => (
         </SectionTitle></center>
         <center><SectionText>
           Genesis Wizard mint is coming soon<br />
-          follow our twitter to stay up to date
+          follow our twitter to stay up to date!
         </SectionText></center>
         <center><Button onClick={props.handleClick}>
           <a href='https://www.launchmynft.io/collections/AETMcjSATqwGHFJvPdZFnBdJzKfbhHW4H3RAcLsan8ZH/1XewNW3yLtie2EXkr1Kj'>Mint</a>
