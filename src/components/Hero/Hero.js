@@ -16,7 +16,7 @@ const Hero = (props) => (
           follow our twitter to stay up to date
         </SectionText></center>
         <center><Button onClick={props.handleClick}>
-          INFO
+          <a href='https://www.launchmynft.io/collections/AETMcjSATqwGHFJvPdZFnBdJzKfbhHW4H3RAcLsan8ZH/1XewNW3yLtie2EXkr1Kj'>Mint</a>
         </Button></center>
       </LeftSection>
     </Section>
